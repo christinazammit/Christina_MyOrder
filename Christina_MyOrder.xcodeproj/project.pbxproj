@@ -55,11 +55,12 @@
 		FEC4D688270FEEA400652BFA /* Christina_MyOrder */ = {
 			isa = PBXGroup;
 			children = (
+				FEC4D69C270FEF8600652BFA /* Views */,
+				FEC4D69D270FEF8B00652BFA /* Models */,
+				FEC4D69E270FEF9300652BFA /* Helper */,
 				FEC4D689270FEEA400652BFA /* Christina_MyOrderApp.swift */,
-				FEC4D68B270FEEA400652BFA /* ContentView.swift */,
-				FEC4D68D270FEEA800652BFA /* Assets.xcassets */,
 				FEC4D692270FEEA800652BFA /* Persistence.swift */,
-				FEC4D694270FEEA800652BFA /* Christina_MyOrder.xcdatamodeld */,
+				FEC4D68D270FEEA800652BFA /* Assets.xcassets */,
 				FEC4D68F270FEEA800652BFA /* Preview Content */,
 			);
 			path = Christina_MyOrder;
@@ -71,6 +72,29 @@
 				FEC4D690270FEEA800652BFA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FEC4D69C270FEF8600652BFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEC4D68B270FEEA400652BFA /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEC4D69D270FEF8B00652BFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FEC4D694270FEEA800652BFA /* Christina_MyOrder.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEC4D69E270FEF9300652BFA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
