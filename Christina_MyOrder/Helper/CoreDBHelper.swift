@@ -58,7 +58,7 @@ class CoreDBHelper: ObservableObject{
     
     func getAllCoffee(){
         let fetchRequest = NSFetchRequest<CoffeeMO>(entityName: ENTITY_NAME)
-        fetchRequest.sortDescriptors = [NSSortDescriptor.init(key: "flavour", ascending: true)]
+        fetchRequest.sortDescriptors = [NSSortDescriptor.init(key: "dateAdded", ascending: false)]
         
         do{
             let result = try self.moc.fetch(fetchRequest)
