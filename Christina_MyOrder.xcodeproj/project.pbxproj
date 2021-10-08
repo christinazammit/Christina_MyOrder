@@ -14,6 +14,7 @@
 		FEC4D693270FEEA800652BFA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC4D692270FEEA800652BFA /* Persistence.swift */; };
 		FEC4D696270FEEA800652BFA /* Christina_MyOrder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEC4D694270FEEA800652BFA /* Christina_MyOrder.xcdatamodeld */; };
 		FEC4D6A0270FF0B600652BFA /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC4D69F270FF0B600652BFA /* Coffee.swift */; };
+		FEC4D6A2270FF12E00652BFA /* CoffeeMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC4D6A1270FF12E00652BFA /* CoffeeMO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		FEC4D692270FEEA800652BFA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FEC4D695270FEEA800652BFA /* Christina_MyOrder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Christina_MyOrder.xcdatamodel; sourceTree = "<group>"; };
 		FEC4D69F270FF0B600652BFA /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		FEC4D6A1270FF12E00652BFA /* CoffeeMO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				FEC4D694270FEEA800652BFA /* Christina_MyOrder.xcdatamodeld */,
 				FEC4D69F270FF0B600652BFA /* Coffee.swift */,
+				FEC4D6A1270FF12E00652BFA /* CoffeeMO.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				FEC4D696270FEEA800652BFA /* Christina_MyOrder.xcdatamodeld in Sources */,
 				FEC4D693270FEEA800652BFA /* Persistence.swift in Sources */,
 				FEC4D68C270FEEA400652BFA /* ContentView.swift in Sources */,
+				FEC4D6A2270FF12E00652BFA /* CoffeeMO.swift in Sources */,
 				FEC4D68A270FEEA400652BFA /* Christina_MyOrderApp.swift in Sources */,
 				FEC4D6A0270FF0B600652BFA /* Coffee.swift in Sources */,
 			);
