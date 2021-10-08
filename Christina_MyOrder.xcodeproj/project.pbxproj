@@ -17,6 +17,7 @@
 		FEC4D6A4270FF15A00652BFA /* CoffeeOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC4D6A3270FF15A00652BFA /* CoffeeOrder.swift */; };
 		FEC4D6A6270FF17C00652BFA /* CoffeeHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC4D6A5270FF17C00652BFA /* CoffeeHistory.swift */; };
 		FEC4D6A8270FF1A700652BFA /* CoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC4D6A7270FF1A700652BFA /* CoffeeView.swift */; };
+		FEC4D6AA270FF22A00652BFA /* CoreDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC4D6A9270FF22A00652BFA /* CoreDBHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		FEC4D6A3270FF15A00652BFA /* CoffeeOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeOrder.swift; sourceTree = "<group>"; };
 		FEC4D6A5270FF17C00652BFA /* CoffeeHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeHistory.swift; sourceTree = "<group>"; };
 		FEC4D6A7270FF1A700652BFA /* CoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeView.swift; sourceTree = "<group>"; };
+		FEC4D6A9270FF22A00652BFA /* CoreDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDBHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		FEC4D69E270FEF9300652BFA /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				FEC4D6A9270FF22A00652BFA /* CoreDBHelper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEC4D696270FEEA800652BFA /* Christina_MyOrder.xcdatamodeld in Sources */,
+				FEC4D6AA270FF22A00652BFA /* CoreDBHelper.swift in Sources */,
 				FEC4D693270FEEA800652BFA /* Persistence.swift in Sources */,
 				FEC4D6A4270FF15A00652BFA /* CoffeeOrder.swift in Sources */,
 				FEC4D6A6270FF17C00652BFA /* CoffeeHistory.swift in Sources */,

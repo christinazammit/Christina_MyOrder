@@ -2,7 +2,10 @@
 //  Christina_MyOrderApp.swift
 //  Christina_MyOrder
 //
-//  Created by Christina Zammit on 2021-10-07.
+//  Christina Zammit
+//  991585165
+//
+//  Created by Christina Zammit on 2021-10-7.
 //
 
 import SwiftUI
@@ -10,11 +13,12 @@ import SwiftUI
 @main
 struct Christina_MyOrderApp: App {
     let persistenceController = PersistenceController.shared
-
+    let coreDBHelper = CoreDBHelper(context: PersistenceController.shared.container.viewContext)
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            coffeeOrder()
+                .environmentObject(coreDBHelper)
         }
     }
 }
